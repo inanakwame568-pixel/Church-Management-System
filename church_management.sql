@@ -1,8 +1,6 @@
--- Create database
-CREATE DATABASE IF NOT EXISTS church_management;
-USE church_management;
 
--- Users table (for system access)
+    -- Church Management System Database
+ 
 CREATE TABLE users (
     user_id INT PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(50) UNIQUE NOT NULL,

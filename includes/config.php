@@ -3,10 +3,10 @@
 // REMOVED session_start() from here
 
 // Database configuration
-define('DB_HOST', 'localhost');
-define('DB_USER', 'Elijah');
-define('DB_PASS', 'livingstone@05533C'); // Put your actual password
-define('DB_NAME', 'church_management');
+define('DB_HOST', 'sql110.infinityfree.com');
+define('DB_USER', 'if0_42410125');
+define('DB_PASS', '36CwY4fNFJEKK'); // Put your actual password
+define('DB_NAME', 'if0_42410125_church_management');
 
 // Application configuration
 define('APP_NAME', 'Church Management System');
