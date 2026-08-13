@@ -458,7 +458,7 @@ include 'header.php';
 /* About page specific styles */
 .about-hero {
     background: linear-gradient(135deg, rgba(67, 97, 238, 0.9), rgba(6, 182, 212, 0.9)), 
-                url('assets/images/church-hero.jpg') center/cover;
+                url('assets/images/church-building.jpg') center/cover;
     color: white;
     padding: 120px 0;
     margin-top: -20px;

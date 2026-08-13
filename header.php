@@ -13,7 +13,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($page_title) ? $page_title . ' - ' : ''; ?><?php echo APP_NAME ?? 'Church Management System'; ?></title>
+    <title><?php echo isset($page_title) ? $page_title . ' - ' : ''; ?><?php echo APP_NAME ?? 'Desert Pastures Management System'; ?></title>
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +41,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         
         /* Navigation */
         .navbar-custom {
-            background: rgba(255, 255, 255, 0.95);
+            background: rgba(248, 247, 247, 0.95);
             backdrop-filter: blur(10px);
             box-shadow: 0 2px 20px rgba(0,0,0,0.1);
             padding: 15px 0;
@@ -58,7 +58,7 @@ $current_page = basename($_SERVER['PHP_SELF']);
         
         .navbar-custom .nav-link {
             font-weight: 500;
-            color: #333;
+            color: #135ba8;
             margin: 0 10px;
             transition: color 0.3s;
         }
@@ -281,32 +281,32 @@ $current_page = basename($_SERVER['PHP_SELF']);
                         </a>
                     </li>
                     
-                    <?php if (isset($_SESSION['user_id'])): ?>
+                    <?php if (isset($_SESSION['user_id'])): ?> 
                         <li class="nav-item">
                             <a class="nav-link" href="admin/dashboard.php">
                                 <i class="fas fa-tachometer-alt me-1"></i>Dashboard
                             </a>
-                        </li>
+                        </li> 
                         <li class="nav-item">
                             <a class="nav-link" href="admin/members.php">
                                 <i class="fas fa-users me-1"></i>Members
                             </a>
-                        </li>
+                        </li> 
                         <li class="nav-item">
                             <a class="nav-link" href="admin/events.php">
                                 <i class="fas fa-calendar me-1"></i>Events
                             </a>
-                        </li>
+                        </li> 
                         <li class="nav-item">
                             <a class="nav-link" href="admin/groups.php">
                                 <i class="fas fa-users-cog me-1"></i>Groups
                             </a>
-                        </li>
+                        </li> 
                         <li class="nav-item">
                             <a class="nav-link" href="logout.php">
                                 <i class="fas fa-sign-out-alt me-1"></i>Logout
                             </a>
-                        </li>
+                        </li> 
                     <?php else: ?>
                         <li class="nav-item">
                             <a class="nav-link <?php echo $current_page == 'about.php' ? 'active' : ''; ?>" href="about.php">

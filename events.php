@@ -412,8 +412,9 @@ include 'header.php';
 <style>
 /* Events page specific styles */
 .events-hero {
-    background: linear-gradient(135deg, rgba(67, 97, 238, 0.9), rgba(6, 182, 212, 0.9)), 
-                url('assets/images/events-hero.jpg') center/cover;
+   background: linear-gradient(135deg, rgba(67, 97, 238, 0.9), rgba(6, 182, 212, 0.9)), 
+             var(--events-hero), url('assets/images/events-hero.jpg') center/cover;
+    background: var(--events-overlay), url('assets/images/church-building.jpg') center/cover;         
     color: white;
     padding: 80px 0;
     margin-top: -20px;

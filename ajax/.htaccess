@@ -1,19 +1,12 @@
-# ajax/.htaccess
-<IfModule mod_authz_core.c>
-    Require all denied
-</IfModule>
-<IfModule !mod_authz_core.c>
-    Order deny,allow
-    Deny from all
-</IfModule>
+RewriteEngine On
 
-# Allow access to these specific files
-<FilesMatch "^(mark_announcement_read|get_unread_count|get_more_announcements)\.php$">
-    <IfModule mod_authz_core.c>
-        Require all granted
-    </IfModule>
-    <IfModule !mod_authz_core.c>
-        Order allow,deny
-        Allow from all
-    </IfModule>
-</FilesMatch>
+# Redirect duplicate admin paths
+RewriteRule ^admin/admin/(.*)$ admin/$1 [R=301,L]
+
+# Remove .php extension
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Custom error pages
+ErrorDocument 404 /error/404.php
+ErrorDocument 403 /error/403.php

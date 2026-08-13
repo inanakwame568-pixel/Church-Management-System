@@ -13,10 +13,10 @@
                         Connecting faith, community, and technology to serve you better.
                     </p>
                     <div class="social-links">
-                        <a href="facebook.com/eastwoodanabaministriesofficialpage" class="me-3"><i class="fab fa-facebook fa-lg"></i></a>
-                        <a href="twitter.com/eastwoodanaba" class="me-3"><i class="fab fa-twitter fa-lg"></i></a>
-                        <a href="instagram.com/eastwoodanabaministries" class="me-3"><i class="fab fa-instagram fa-lg"></i></a>
-                        <a href="www.youtube.com/@EastwoodAnaba" class="me-3"><i class="fab fa-youtube fa-lg"></i></a>
+                        <a href="https://facebook.com/eastwoodanabaministriesofficialpage" class="me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="https://twitter.com/eastwoodanaba" class="me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="https://instagram.com/eastwoodanabaministries" class="me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="https://www.youtube.com/@EastwoodAnaba" class="me-3"><i class="fab fa-youtube fa-lg"></i></a>
                     </div>
                 </div>
                 
